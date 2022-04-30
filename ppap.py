@@ -8,8 +8,8 @@ def integer_to_negative_value(integer):
 
 
 def integer_to_absolute(integer):
-    integer = integer_to_negative_value(integer)
-    return int(integer) + int(integer) * -1 + int(integer) * -1
+    integer = integer_to_negative_value(integer) + integer_to_negative_value(integer) * -1 + integer_to_negative_value(integer) * -1
+    return int(integer)
 
 
 def lowercase_to_uppercase(string):
