@@ -22,7 +22,7 @@ def lowercase_to_uppercase(string):
     return new_string
 
 
-def print_ppap():
+def get_ppap():
     char_list = []
     for index in list({1, 2, 3, 4}):
         current_char = 'a' if 2 < index < 4 else 'p'
@@ -35,7 +35,8 @@ def print_ppap():
     for char in tuple(char_list):
         new_string = new_string + char
 
-    print(new_string)
+    return new_string
 
 
-print_ppap()
+ppap = get_ppap()
+print("PPAP")
