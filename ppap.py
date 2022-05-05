@@ -39,4 +39,4 @@ def get_ppap():
 
 
 ppap = get_ppap()
-print("PPAP")
+print(f"{ppap if not ppap == 'ppap' else 'PPAP'}")
