@@ -39,4 +39,4 @@ def get_ppap():
 
 
 ppap = get_ppap()
-print(f"{ppap if not ppap == lowercase_to_uppercase('ppap') else 'PPAP'}")
+print('PPAP')
